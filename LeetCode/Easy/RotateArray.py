@@ -1,4 +1,4 @@
-#https://leetcode.com/problems/rotate-array/
+# https://leetcode.com/problems/rotate-array/
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -6,6 +6,5 @@ class Solution:
         """
         for i in range(k):
             element = nums.pop(-1)
-            nums.insert(0,element)
+            nums.insert(0, element)
         return nums
-                    
