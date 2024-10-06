@@ -1,8 +1,7 @@
 package String1;
 
 public class cigarParty {
-
-  //https://codingbat.com/prob/p159531
+  // https://codingbat.com/prob/p159531
   public boolean cigarParty(int cigars, boolean isWeekend) {
     boolean party = false;
     if (isWeekend == false) {

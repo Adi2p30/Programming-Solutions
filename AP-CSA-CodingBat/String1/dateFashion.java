@@ -1,8 +1,7 @@
 package String1;
 
 public class dateFashion {
-
-  //https://codingbat.com/prob/p103360
+  // https://codingbat.com/prob/p103360
   public int dateFashion(int you, int date) {
     int result = 1;
     if (you <= 2 || date <= 2) {

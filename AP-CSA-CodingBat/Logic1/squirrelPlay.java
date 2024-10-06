@@ -1,8 +1,8 @@
-package String1;
+package Logic1;
 
 public class squirrelPlay {
 
-  //https://codingbat.com/prob/p141061
+  // https://codingbat.com/prob/p141061
   public boolean squirrelPlay(int temp, boolean isSummer) {
     boolean play = false;
     if (isSummer == true) {
