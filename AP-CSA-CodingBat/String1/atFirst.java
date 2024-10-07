@@ -7,7 +7,7 @@ public class atFirst {
     if (str.length() >= 2) {
       return str.substring(0, 2);
     } else {
-      str = str + "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
+      str = str + "@";
       return str.substring(0, 2);
     }
   }
